@@ -1,4 +1,4 @@
-{% extends 'base.html' %}{% block content %}{% load static %}
+{% extends 'base.html' %}{% block content %}{% load humanize %}{% load static %}
 <!-- Banner start -->
 <div class="banner" id="banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -128,7 +128,7 @@
                             <a href="car-details.html' %}" class="car-img">
                                 <div class="tag-2">Featured</div>
                                 <div class="price-box">
-                                    <span class="del"><del>${{car.price}}</del></span>
+                                    <span class="del"><del>${{car.price | intcomma}}</del></span>
                                     <br>
                                     <span>$780.00</span>
                                 </div>
