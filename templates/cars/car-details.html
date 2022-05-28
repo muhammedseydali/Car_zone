@@ -26,7 +26,7 @@
                         <div class="pull-left">
                             <h3>{{ single_car.car_title }}</h3>
                             <h6>
-                                <i class="flaticon-pin"></i>{{ single_car.state }}{{ single_car.city }}
+                                <i class="flaticon-pin"></i>{{ single_car.state }} , {{ single_car.city }}
                             </h6>
                         </div>
                         <div class="pull-right">
@@ -148,27 +148,26 @@
                     <div class="widget advanced-search d-none-992">
                         <button class="btn btn-outline-danger bomd btn-block btn-lg" data-toggle="modal" data-target="#inquiryModal">Send message</button>
 
-
                         <br>
                         <h3 class="sidebar-title">Refine Your Search</h3>
                         <ul>
                             <li>
-                                <span>Color:</span>{{single_car.color}}
+                                <span>Color:</span>{{single_car.colour}}
                             </li>
                             <li>
-                                <span>Model:</span>{{single_car.Model}}
+                                <span>Model:</span>{{single_car.model}}
                             </li>
                             <li>
                                 <span>Year:</span>{{single_car.year}}
                             </li>
                             <li>
-                                <span>Condition:</span>{{single_car.Condition}}
+                                <span>Condition:</span>{{single_car.condition}}
                             </li>
                             <li>
                                 <span>Body style:</span>{{single_car.body_style}}
                             </li>
                             <li>
-                                <span>Engine:</span>{{single_car.Engine}}
+                                <span>Engine:</span>{{single_car.engine}}
                             </li>
                             <li>
                                 <span>transmission:</span>{{single_car.transmission}}
