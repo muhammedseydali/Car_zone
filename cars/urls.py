@@ -6,6 +6,6 @@ from django.conf import settings
 
 urlpatterns = [
    path('newcars/',views.cars, name='cars'),
-   path('<int:id>', views.car_detail, name='car_detail')
+   path('cars/<int:id>', views.car_detail, name='car_detail')
 
 ]

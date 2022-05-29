@@ -5,11 +5,11 @@ from cars.models import Cars
 def home(request):
     team = Team.objects.all()
     featured_cars = Cars.objects.order_by('-created_date').filter(is_featured=True)
-    all_cars = Cars.objects.order_by('-created_date')
+    car = Cars.objects.order_by('-created_date')
     data = {
         'teams':team,
         'featured_cars':featured_cars,
-        'all_cars':all_cars
+        'all_cars':car
     }
 
     return render(request, 'pages/home.html',data)
