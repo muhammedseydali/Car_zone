@@ -89,10 +89,18 @@
                 <!-- Page navigation start -->
                 <div class="pagination-box p-box-2 text-center">
                     <nav aria-label="Page navigation example">
+                        {% if cars.has_other_pages %}
                         <ul class="pagination">
+                            {% if cars.has_previous %}
                             <li class="page-item">
-                                <a class="page-link" href="#"><i class="fa fa-angle-left"></i></a>
+                                <a class="page-link" href="?page={{ cars.previous_page_number }}"><i class="fa fa-angle-left"></i></a>
                             </li>
+                            {% else %}
+                            <li class="page-item">
+                                <a class="page-link"><i class="fa fa-angle-left"></i></a>
+                            </li>
+                            {% endif %}
+                            {% for i in car.%}
                             <li class="page-item"><a class="page-link active" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -100,6 +108,7 @@
                                 <a class="page-link" href="#"><i class="fa fa-angle-right"></i></a>
                             </li>
                         </ul>
+                        {% endif %}
                     </nav>
                 </div>
             </div>
