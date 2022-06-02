@@ -41,7 +41,16 @@ INSTALLED_APPS = [
     'cars',
     'ckeditor',
     'multiselectfield',
-    'django.contrib.humanize'
+    'django.contrib.humanize',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'contacts',
+    # providers
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
+
 ]
 
 MIDDLEWARE = [
@@ -135,3 +144,7 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = 'dashboard'
