@@ -1,4 +1,5 @@
 from email import message
+import re
 from django.shortcuts import render,redirect
 from django.contrib import messages
 # Create your views here.
@@ -19,6 +20,14 @@ def Enquiry(request):
         email = request.POST['email']
         phone = request.POST['phone']
         message = request.POST['message']
+
+        if request.user.is_authenticated:
+            user_id = request.user.id
+
+            has_contacted = Contact.objects.all().filter(car_id=car_id,user_id=user_id)
+            if has_contacted:
+                messages.error(request,'ypu are already enquire about this car')
+                return redirect('/cars/'+car_id)
 
         contact = Contact(car_id=car_id,car_title=car_title,user_id=user_id,first_name=first_name,
         last_name=last_name,customer_need=customer_need,city=city,state=state,email=email,phone=phone,message=message)
