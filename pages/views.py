@@ -5,6 +5,7 @@ from cars.models import Cars
 def home(request):
     team = Team.objects.all()
     featured_cars = Cars.objects.order_by('-created_date').filter(is_featured=True)
+    print(featured_cars)
     all_cars = Cars.objects.order_by('-created_date')
     # search_field = Cars.objects.values('model', 'city','year','body_style')
     city_search = Cars.objects.values_list('city', flat=True).distinct()

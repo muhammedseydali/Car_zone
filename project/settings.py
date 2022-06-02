@@ -41,7 +41,16 @@ INSTALLED_APPS = [
     'cars',
     'ckeditor',
     'multiselectfield',
-    'django.contrib.humanize'
+    'django.contrib.humanize',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'contacts',
+    # providers
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
+
 ]
 
 MIDDLEWARE = [
@@ -136,6 +145,9 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = 'dashboard'
 # email sections
 
 EMAIL_HOST = 'smtp.gmail.com'
@@ -143,3 +155,4 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'seydali,zewia@gmail.com'
 EMAIL_HOST_PASSWORD = '9037107998'
 EMAIL_USE_TLS = True
+

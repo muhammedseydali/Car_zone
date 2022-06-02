@@ -1,0 +1,7 @@
+#!bin/bash
+
+set -o errexit
+
+set -o pipfail
+
+set -o nounset
