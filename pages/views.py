@@ -1,6 +1,11 @@
-from django.shortcuts import render
+from email import message
+from sre_parse import SubPattern
+from django.shortcuts import redirect, render
 from .models import Team
 from cars.models import Cars
+from django.contrib import messages
+from django.core.mail import send_mail
+from django.contrib.auth.models import User
 # Create your views here.
 def home(request):
     team = Team.objects.all()
@@ -23,7 +28,7 @@ def home(request):
         'body_style_search':body_style_search,
     }
 
-    return render(request, 'pages/home.html',data)
+    return render(request, 'pages/home1.html',data)
 
 # def cars(request):
 #     return render(request, 'pages/cars.html')
@@ -39,4 +44,27 @@ def services(request):
     return render(request, 'pages/services.html')
 
 def contact(request):
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        phone = request.POST['phone']
+        message = request.POST['message']
+
+        email_subject = "You have new message from Carzone website regarding " +subject
+        message_body = 'name:' +name + 'email : ' + email + 'subject : ' + subject + 'phone : '+ phone + 'message : ' +message 
+
+        admin_info = User.objects.get(is_superuser=True)
+        admin_email = admin_info.email 
+
+        send_mail(
+        email_subject,
+        message_body,
+        'seydali.zewia@gmail.com',
+        [admin_email],
+        fail_silently=False,
+)
+        messages.success(request,'Thank you for contacting us, we will get back you shortly')
+        return redirect('contact')
+        
     return render(request, 'pages/contact.html')

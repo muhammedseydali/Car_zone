@@ -1,11 +1,10 @@
-
-
-import re
-from weakref import ref
+from django.contrib.auth.decorators import login_required 
 from django.shortcuts import render,redirect
 from django.contrib import messages,auth
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
+
+from contacts.models import Contact
 # Create your views here.
 def register(request):
     if request.method == 'POST':
@@ -63,6 +62,12 @@ def logout(request):
         return redirect('home')
     return render(request,'accounts/logout.html')
 
+@login_required(login_url='login')
 def dashboard(request):
+    user_enquiry = Contact.objects.order_by('-created_date').filter(user_id=request.user.id)
+    print(user_enquiry)
+    data = {
+        'enquiry':user_enquiry
+    }
     
-    return render(request,'accounts/dashboard.html')
+    return render(request,'accounts/dashboard.html',data)
