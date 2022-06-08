@@ -1,15 +1,14 @@
-from cgitb import enable
-from email import message
-import re
 from django.shortcuts import render,redirect
 from django.contrib import messages
-# Create your views here.
 from django.shortcuts import render
 from .models import Contact
 from django.core.mail import send_mail
 from django.contrib.auth.models import User
 # Create your views here.
+
+# enquiry views 
 def Enquiry(request):
+
     if request.method == 'POST':
         car_id = request.POST['car_id']
         car_title = request.POST['car_title']
