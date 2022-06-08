@@ -5,6 +5,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('Enquiry',views.Enquiry, name='Enquiry'),
-  
 
 ] 
