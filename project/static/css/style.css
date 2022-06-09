@@ -3739,7 +3739,7 @@ input[type=checkbox]:checked + label:before {
 .intro-section .btn {
     background: #fff;
     float: right;
-    color: #37404d;
+    color: #236ca7;
 }
 
 .intro-section .btn:hover {

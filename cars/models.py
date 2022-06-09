@@ -80,6 +80,10 @@ class Cars(models.Model):
     is_featured = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
 
+    class Meta:
+        verbose_name = 'cars'
+        verbose_name_plural = 'cars'
+
     def __str__(self):
         return self.car_title
 

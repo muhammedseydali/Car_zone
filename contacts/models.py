@@ -17,5 +17,9 @@ class Contact(models.Model):
     user_id = models.IntegerField(blank=True)
     created_date = models.DateTimeField(blank=True, default=datetime.now)
 
+    class Meta:
+        verbose_name = 'contact'
+        verbose_name_plural = 'contact'
+
     def __str__(self):
-        return self.email
+        return self.first_name

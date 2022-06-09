@@ -21,3 +21,13 @@ class TeamAdmin(admin.ModelAdmin):
     
 admin.site.register(Team,TeamAdmin)
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'demo',
+#         'USER': 'postgres',
+#         'PASSWORD': 'postgres',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }

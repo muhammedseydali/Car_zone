@@ -11,5 +11,9 @@ class Team(models.Model):
     google_plus_link = models.URLField(max_length=100)
     created_date = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        verbose_name = 'Team'
+        verbose_name_plural = 'Team'
+
     def __str__(self):
         return self.first_name
