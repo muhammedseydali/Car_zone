@@ -1,0 +1,387 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$PrDdAm6UoxUeN7034jWiNk$ee0qGyW4n5D9TiO/ys1n9Ytz6XO5GmGakYTbEWBtA0g=",
+        "last_login": "2022-06-04T17:55:40.895Z",
+        "is_superuser": true,
+        "username": "ali",
+        "first_name": "",
+        "last_name": "",
+        "email": "ali@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-13T07:45:55.711Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$LPsuRgZImkW36v6z94Mvh6$SBkpQigOWiu0wHnZwrkJ3rSAZ3pB0Cg+eYU+wVlX9pA=",
+        "last_login": "2022-06-02T05:32:41.000Z",
+        "is_superuser": false,
+        "username": "mahshook",
+        "first_name": "mahshook",
+        "last_name": "sanu",
+        "email": "sanu@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-01T19:13:07.092Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!0kRIcP3oJsDjec9fKtbRN2KZjlQh592FQOludK0G",
+        "last_login": "2022-06-02T18:09:49.116Z",
+        "is_superuser": false,
+        "username": "muhammed",
+        "first_name": "Muhammed",
+        "last_name": "Seydali",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-02T07:20:20.876Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$tGKG6uNUARXiHZbqmhw1Lr$Ih+QJ/UrgY50kzLhra8dawoM4rNLf13atjW5B7+I2TE=",
+        "last_login": "2022-06-03T06:50:04.678Z",
+        "is_superuser": false,
+        "username": "sebaan",
+        "first_name": "sebaan",
+        "last_name": "a",
+        "email": "seban@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-03T06:50:04.102Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$BAo1wQOZkqxwpRV2yOfryA$BWNrfTxLufJPlME5l7UZCZ4zi3TXlFak3YtE0+2H0Ys=",
+        "last_login": "2022-06-03T10:54:35.639Z",
+        "is_superuser": false,
+        "username": "anandhu",
+        "first_name": "anandhu",
+        "last_name": "s",
+        "email": "anadhu@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-03T10:54:35.048Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4yqbt35hox9curlhmtsv3xy9j006161h",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgUMCle89AZpipVA0kpV0Z765NutDtf-_9l0iwrSVtnZc0kzgLLU6_G0J-cN0B3aHemsytrsuMclfkQbu8NuLn5XD_Dgr08q1BoyM7GaW1gTAy6TCprAADxDA4G5QF8sgeaSBHORKj92OMxlvnAov3B-uTOAo:1nxXzw:wBJtHiP7onrz09meuTbECnH2Djof1HyZmg5_p-297MA",
+        "expire_date": "2022-06-18T17:55:40.911Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "99a5son8crmywbat3hzmyumeb0jtgb6f",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgUMCle89AZpipVA0kpV0Z765NutDtf-_9l0iwrSVtnZc0kzgLLU6_G0J-cN0B3aHemsytrsuMclfkQbu8NuLn5XD_Dgr08q1BoyM7GaW1gTAy6TCprAADxDA4G5QF8sgeaSBHORKj92OMxlvnAov3B-uTOAo:1npQ04:Ngt4VmCaRumSKpksbPx2xXkUHAHXnZr0UA2unz-t_dI",
+        "expire_date": "2022-05-27T07:46:12.011Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9ysejba3wxjh14s87fxagyjacztj5o18",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSGlwAVcuvcbmvsotmogKe3K-O_apAvdnpk5LzXgtk7D1sZlmEWdlVWn342QH2PZgdyx3KrmWtZlJr0r-qBNX6uMz8vh_h1M2KZv7XLHyQgQ9DEKRfKYPSTAwDaiZ_aGjM3igEnAJArsckp9F1yw0ot6fwDxWjgU:1nwpGX:J1gImzl6ptuv3XVMDaDAH_OPsuCl9GUyWROszZxKQ_o",
+        "expire_date": "2022-06-16T18:09:49.132Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pz9ck2b0bsz2dd5pp4egcrtv26q5v3fh",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgUMCle89AZpipVA0kpV0Z765NutDtf-_9l0iwrSVtnZc0kzgLLU6_G0J-cN0B3aHemsytrsuMclfkQbu8NuLn5XD_Dgr08q1BoyM7GaW1gTAy6TCprAADxDA4G5QF8sgeaSBHORKj92OMxlvnAov3B-uTOAo:1nv0v0:_0SYmbkG6QKijnRa1hI9A1YdtjY4TCHgtBj5_8ddz88",
+        "expire_date": "2022-06-11T18:12:06.097Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Seydali",
+        "last_name": "muhammed",
+        "designation": "CTO",
+        "photo": "photos/2022/05/13/avatar-11.jpg",
+        "facebook_link": "https://facebook.com",
+        "google_plus_link": "https://facebook.com",
+        "created_date": "2022-05-13T07:48:19.877Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Abdul",
+        "last_name": "Khader",
+        "designation": "CMO",
+        "photo": "photos/2022/05/13/avatar-3.jpg",
+        "facebook_link": "https://facebook.com",
+        "google_plus_link": "https://facebook.com",
+        "created_date": "2022-05-13T07:48:50.107Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Ameen",
+        "last_name": "aash",
+        "designation": "CEO",
+        "photo": "photos/2022/05/13/avatar-1.jpg",
+        "facebook_link": "https://facebook.com",
+        "google_plus_link": "https://facebook.com",
+        "created_date": "2022-05-13T07:49:12.873Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Mahshook",
+        "last_name": "sanu",
+        "designation": "Developer",
+        "photo": "photos/2022/05/13/avatar-12.jpg",
+        "facebook_link": "https://facebook.com",
+        "google_plus_link": "https://facebook.com",
+        "created_date": "2022-05-13T07:49:40.094Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "kerala",
+        "city": "Thiruvananthapuram",
+        "colour": "white",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "used",
+        "price": "100000",
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>",
+        "car_photo": "photos/2022/05/13/1902536891_yaCKNBn.jpg",
+        "car_photo1": "photos/2022/05/13/1902536917_3wOLQGY.jpg",
+        "car_photo2": "photos/2022/05/13/1902537043_qSeedhq.jpg",
+        "car_photo3": "photos/2022/05/13/1902537077_OuOxFLa.jpg",
+        "car_photo4": "photos/2022/05/13/1902537082_ydYvFzS.jpg",
+        "features": "cruise control,Audio Interface,Airbags,Air conditioning,seat heating,Park assistant,Power steering,Reverse camera,Direct fuel injection,Auto start/stop,wind deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.9-litre twin-turbocharged V8 engine",
+        "transmission": "automatic",
+        "interior": "grey",
+        "miles": 20000,
+        "doors": "2",
+        "passengers": 2,
+        "vin_no": "1234566",
+        "milege": 7,
+        "fuel_type": "petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:15:22Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "tamilnadu",
+        "city": "coimbatore",
+        "colour": "black",
+        "model": "Edge",
+        "year": 2019,
+        "condition": "new",
+        "price": "250000",
+        "description": "<p>Introduced for the 2007 model year, the Edge is the first mid-size CUV marketed by Ford in North America; the model line is currently in its second generation.</p>",
+        "car_photo": "photos/2022/05/13/1901478607.jpg",
+        "car_photo1": "photos/2022/05/13/1901478618.jpg",
+        "car_photo2": "photos/2022/05/13/1901478646.jpg",
+        "car_photo3": "photos/2022/05/13/1901478672.jpg",
+        "car_photo4": "photos/2022/05/13/1901478687.jpg",
+        "features": "cruise control,Airbags,Air conditioning,seat heating,Alarm system,Park assistant,Power steering,Auto start/stop,Bluetooth Handset",
+        "body_style": "suv",
+        "engine": "2.5-litre twin-turbocharged",
+        "transmission": "automatic",
+        "interior": "black",
+        "miles": 12000,
+        "doors": "4",
+        "passengers": 6,
+        "vin_no": "098765444",
+        "milege": 12,
+        "fuel_type": "diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:17:21Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "maharashtra",
+        "city": "bombay",
+        "colour": "dark black",
+        "model": "F-250 Super Duty",
+        "year": 2018,
+        "condition": "mint",
+        "price": "50000",
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford F-150, the Super Duty trucks are an expansion of the Ford F-Series range, from the F-250 to the F-550.&nbsp;</p>",
+        "car_photo": "photos/2022/05/13/1901478607_OoquNZ4.jpg",
+        "car_photo1": "photos/2022/05/13/1901478618_FCNsW3b.jpg",
+        "car_photo2": "photos/2022/05/13/1901478646_ocWHlCU.jpg",
+        "car_photo3": "photos/2022/05/13/1901478672_uMhiU0T.jpg",
+        "car_photo4": "photos/2022/05/13/1901478687_a5pCtAn.jpg",
+        "features": "cruise control,Alarm system,Park assistant,Power steering,Reverse camera,Direct fuel injection,Auto start/stop,wind deflector,Bluetooth Handset",
+        "body_style": "Medium-duty truck",
+        "engine": "2.8-litre twin-turbocharged",
+        "transmission": "manual",
+        "interior": "red",
+        "miles": 50000,
+        "doors": "6",
+        "passengers": 6,
+        "vin_no": "8775644456",
+        "milege": 10,
+        "fuel_type": "diesel",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:20:23Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "westbangal",
+        "city": "kolkata",
+        "colour": "grey",
+        "model": "Compact luxury SUV",
+        "year": 2021,
+        "condition": "new",
+        "price": "69999",
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_executive_car\" title=\"Compact executive car\">compact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class</p>",
+        "car_photo": "photos/2022/05/13/1902932503.jpg",
+        "car_photo1": "photos/2022/05/13/1902932514.jpg",
+        "car_photo2": "photos/2022/05/13/1902932528.jpg",
+        "car_photo3": "photos/2022/05/13/1902932542.jpg",
+        "car_photo4": "",
+        "features": "cruise control,Airbags,Alarm system,Park assistant,Power steering,Reverse camera,wind deflector,Bluetooth Handset",
+        "body_style": "suv",
+        "engine": "2.8-litre twin-turbocharged",
+        "transmission": "automatic",
+        "interior": "black",
+        "miles": 6000,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "98779887778",
+        "milege": 13,
+        "fuel_type": "petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:23:56Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "goa",
+        "city": "anjuna",
+        "colour": "silver",
+        "model": "suv",
+        "year": 2018,
+        "condition": "used",
+        "price": "120000",
+        "description": "<p>The 2018 Toyota 4Runner is ranked #17 in 2018 Affordable Midsize SUVs by U.S.</p>",
+        "car_photo": "photos/2022/05/13/1893633875.jpg",
+        "car_photo1": "photos/2022/05/13/1893633879.jpg",
+        "car_photo2": "photos/2022/05/13/1893633884.jpg",
+        "car_photo3": "photos/2022/05/13/1896836883.jpg",
+        "car_photo4": "photos/2022/05/13/1896836887.jpg",
+        "features": "cruise control,Audio Interface,Airbags,Park assistant,Power steering,Reverse camera,wind deflector,Bluetooth Handset",
+        "body_style": "Midsize SUV",
+        "engine": "4.0-litre twin-turbocharged V8 engine",
+        "transmission": "manual",
+        "interior": "wooden",
+        "miles": 7766,
+        "doors": "4",
+        "passengers": 4,
+        "vin_no": "7543234567",
+        "milege": 15,
+        "fuel_type": "petrol",
+        "no_of_owners": "3",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:27:09Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "gujarat",
+        "city": "ahmedabad",
+        "colour": "white",
+        "model": "sedan",
+        "year": 2022,
+        "condition": "new",
+        "price": "56666",
+        "description": "<p>The latest Corolla rolls into 2018 largely identical, aside from the deletion of a 50th anniversary special edition (51st anniversary doesn&rsquo;t have quite the same ring). Illuminated vanity mirrors are now standard on all models, while XLE and SE models add a leather-wrapped, three-spoke steering wheel to their roster of equipment.</p>",
+        "car_photo": "photos/2022/05/13/1900893299.jpg",
+        "car_photo1": "photos/2022/05/13/1900893311.jpg",
+        "car_photo2": "photos/2022/05/13/1900893319.jpg",
+        "car_photo3": "photos/2022/05/13/1900893329.jpg",
+        "car_photo4": "photos/2022/05/13/1900893391.jpg",
+        "features": "cruise control,Audio Interface,Park assistant,Power steering,Bluetooth Handset",
+        "body_style": "luxury sedan",
+        "engine": "2.8-litre twin-turbocharged",
+        "transmission": "automatic",
+        "interior": "golden touch",
+        "miles": 5565,
+        "doors": "4",
+        "passengers": 5,
+        "vin_no": "987654",
+        "milege": 22,
+        "fuel_type": "petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-05-13T16:30:20Z"
+    }
+},
+{
+    "model": "cars.cars",
+    "pk": 7,
+    "fields": {
+        "car_title": "Maruti Suzuki Swift",
+        "state": "kerala",
+        "city": "kozhikkode",
+        "colour": "white",
+        "model": "swift",
+        "year": 2018,
+        "condition": "new",
+        "price": "2,50000",
+        "description": 
