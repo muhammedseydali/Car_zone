@@ -24,5 +24,4 @@ services:
 networks:
   estate-react:
     driver: bridge
-    
-                                     
+        
