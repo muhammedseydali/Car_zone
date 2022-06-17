@@ -1,5 +1,3 @@
-import imp
-from unittest import case
 from django.db import reset_queries
 from django.shortcuts import render,get_object_or_404
 from .models import Cars
