@@ -125,6 +125,7 @@ celerybeat.pid
 
 # Environments
 project/.env
+project/.gitignore
 .env
 .venv
 env/
