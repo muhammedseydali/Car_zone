@@ -19,6 +19,9 @@ media
 
 # C extensions
 *.so
+./env
+carhuse/env
+.env
 
 # Distribution / packaging
 .Python
